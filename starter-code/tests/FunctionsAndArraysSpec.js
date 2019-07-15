@@ -85,9 +85,6 @@ describe('Calculating the Average - averageNumbers', function () {
     expect(typeof averageNumbers).toBe('function');
   });
 
-  it('returns undefined with an empty array', function () {
-    expect(averageNumbers([])).toBe(undefined);
-  });
 
   it('returns the average of a unique element array', function () {
     expect(averageNumbers([9])).toBe(9);
@@ -107,6 +104,9 @@ describe('Calculating the Average - averageWordLength', function () {
     expect(typeof averageWordLength).toBe('function');
   });
 
+
+
+  
   it('returns undefined with an empty array', function () {
     expect(averageWordLength([])).toBe(undefined);
   });
@@ -125,6 +125,9 @@ describe('Unique Arrays - uniquifyArray', function () {
     expect(typeof uniquifyArray).toBe('function');
   });
 
+
+
+
   it('returns undefined with an empty array', function () {
     expect(uniquifyArray([])).toBe(undefined);
   });
@@ -141,6 +144,9 @@ describe('Unique Arrays - uniquifyArray', function () {
     expect(uniquifyArray(['iPhone', 'Samsung', 'Android', 'iOS', 'iPhone', 'Samsung', 'Nokia', 'Blackberry', 'Android'])).toEqual(['iPhone', 'Samsung', 'Android', 'iOS', 'Nokia', 'Blackberry']);
   });
 });
+
+
+
 
 describe('Finding Elements - doesWordExist', function () {
   it('Defines doesWordExist', function () {
